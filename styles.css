@@ -1,3 +1,40 @@
-h1 {
-	font-family: 'PT Serif', serif;
+.body {
+	margin: 0;
+}
+
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	padding: 40px 0;
+}
+
+.nav__item {
+	padding: 0 13px;
+}
+
+.nav__item:last-child {
+	padding-right: 0;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	padding-top: 133px;
+}
+
+.main {
+	padding-right: 191px;
+}
+
+.img {
+	max-width: 100%;
 }
