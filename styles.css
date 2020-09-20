@@ -1,22 +1,22 @@
 .body {
-	margin: 0;
+  margin: 0;
 }
 
 .wrapper {
-	width: 80%;
-	margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-	position: relative;
-	padding: 40px 0;
-	padding-left: 44px;
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .logo__circle_color_dark-blue {
-	background: #0056ec;
+  background: #0056ec;
 }
 
 .logo__circle_color_blue {
@@ -42,28 +42,28 @@
 }
 
 .nav__item {
-	padding: 0 13px;
+  padding: 0 13px;
 }
 
 .nav__item:last-child {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .section {
-	display: flex;
-	align-items: center;
-	padding-top: 133px;
+  display: flex;
+  align-items: center;
+  padding-top: 133px;
 }
 
 .main {
-	padding-right: 191px;
+  padding-right: 191px;
 }
 
 .img {
- max-width: 100%;
+  max-width: 100%;
 }
 
 .img-footer {
-	display: flex;
+  display: flex;
   justify-content: center;
 }
