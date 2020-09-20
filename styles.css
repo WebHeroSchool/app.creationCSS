@@ -64,11 +64,11 @@
 }
 
 .nav__item:hover {
-	opacity: .7;
+  opacity: .7;
 }
 
 .nav__item_active:hover:after {
-	width: 100%;
+  width: 100%;
 }
 
 .nav__item:last-child {
@@ -93,5 +93,3 @@
   display: flex;
   justify-content: center;
 }
-
-
