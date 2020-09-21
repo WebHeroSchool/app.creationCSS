@@ -67,7 +67,7 @@
   opacity: .7;
 }
 
-.nav__item_active:hover:after {
+.nav__item_active:hover::after {
   width: 100%;
 }
 
