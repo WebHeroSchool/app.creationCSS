@@ -48,7 +48,7 @@
   color: #000;
   position: relative;
   opacity: 1;
-  transition: opacity .2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 
 .nav__item_active::after {
@@ -59,12 +59,12 @@
   height: 3px;
   background: #0056ec;
   position: absolute;
-  transition: width .2s ease-out;
+  transition: width 0.2s ease-out;
   transform: translateX(-50%);
 }
 
 .nav__item:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .nav__item_active:hover::after {
