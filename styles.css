@@ -94,20 +94,20 @@
 }
 
 .main__title {
-	font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
-	margin: 0 0 40px 0;
-	color: #000;
+  font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+  color: #000;
 }
 
 .main__text {
-	font: 22px/26px robotomedium, arial, helvetica, sans-serif;
-	margin: 0 0 61px 0;
-	color: #000;
+  font: 22px/26px robotomedium, arial, helvetica, sans-serif;
+  margin: 0 0 61px 0;
+  color: #000;
 }
 
 .main__btn {
-	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
-	padding: 18px 22px;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+  padding: 18px 22px;
   background-color: #0056ec;
   border-radius: 4px;
   color: #fff;
@@ -116,10 +116,10 @@
   cursor: pointer;
   opacity: 1;
   transition: 0.3s ease-out;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .main__btn:hover {
-	opacity: 0.7;
-	box-shadow: 0 0 20px rgba(0,0,0,0.5)
+  opacity: 0.7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
