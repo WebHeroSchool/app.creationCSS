@@ -88,25 +88,25 @@
 }
 
 .wrap-title {
-	position: relative;
+  position: relative;
 }
 
 .wrap-title__title {
-	font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
-	margin: 0 0 40px 0;
-	color: #000;
-	position: relative;
-	z-index: 1;
+  font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+  color: #000;
+  position: relative;
+  z-index: 1;
 }
 
 .wrap-title__highlight {
-	position: absolute;
-	top: 39%;
-	left: 0;
+  position: absolute;
+  top: 39%;
+  left: 0;
 }
 
 .wrap-title__highlight_short {
-	top: 71%;
+  top: 71%;
 }
 
 .main__text {
