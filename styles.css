@@ -87,27 +87,18 @@
   background: top right no-repeat url(img/img.svg);
 }
 
-.wrap-title {
-	position: relative;
+.main__title {
+  font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+  color: #000;
+  z-index: 1;
 }
 
-.wrap-title__title {
-	font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
-	margin: 0 0 40px 0;
-	color: #000;
-	position: relative;
-	z-index: 1;
+.main__title-text_highlight {
+  background: #ECF3FF;
+
 }
 
-.wrap-title__highlight {
-	position: absolute;
-	top: 39%;
-	left: 0;
-}
-
-.wrap-title__highlight_short {
-	top: 71%;
-}
 
 .main__text {
   font: 22px/26px robotomedium, arial, helvetica, sans-serif;
