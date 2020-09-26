@@ -99,13 +99,13 @@
 	z-index: 1;
 }
 
-.wrap-title__highlight{
+.wrap-title__highlight {
 	position: absolute;
 	top: 39%;
 	left: 0;
 }
 
-.wrap-title__highlight_short{
+.wrap-title__highlight_short {
 	top: 71%;
 }
 
