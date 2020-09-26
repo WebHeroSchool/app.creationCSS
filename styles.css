@@ -91,14 +91,12 @@
   font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
   margin: 0 0 40px 0;
   color: #000;
-  z-index: 1;
 }
 
 .main__title-text_highlight {
   background: #ECF3FF;
 
 }
-
 
 .main__text {
   font: 22px/26px robotomedium, arial, helvetica, sans-serif;
