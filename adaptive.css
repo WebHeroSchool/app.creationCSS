@@ -1,4 +1,4 @@
-/*MENU*/
+/*MENU */
 @media only screen and (min-width: 600px) {
   .mobile-nav {
     display: none;
@@ -11,7 +11,7 @@
   }
 }
 
- /*375 MOBILE*/
+/*375 MOBILE */
 @media only screen and (min-width: 100px) and (max-width: 400px) {
   .logo {
     padding: 0 0 10.667vw 0;
@@ -84,7 +84,7 @@
   }
 }
 
-/*1000*/
+/* 1000 */
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
   .nav__item {
     font: 500 1.4vw/1.6vw robotobold, arial, helvetica, sans-serif;
