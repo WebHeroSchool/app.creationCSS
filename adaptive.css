@@ -47,6 +47,10 @@
     font: 500 3.733vw/4.267vw robotomedium, arial, helvetica, sans-serif;
     padding: 3.733vw 5.333vw;
   }
+
+  .logo__circle {
+    bottom: 12%; 
+  }
 }
 
 /*  600px  */
