@@ -23,7 +23,7 @@
 
 .logo__circle {
   position: absolute;
-  bottom: 25%; 
+  bottom: 25%;
   left: 0;
   transform: translateY(-50%);
   width: 28px;
@@ -38,7 +38,8 @@
 }
 
 @keyframes bounce {
-  from, to  {
+  from, 
+  to {
     bottom: 30px;
     animation-timing-function: ease-out;
   }
@@ -258,7 +259,7 @@
   transform: rotate(45deg);
 }
 
-/*preloader*/
+/* preloader*/
 
 .preloader {
   position: fixed;
@@ -292,40 +293,44 @@
 .one {
   margin-right: -18px;
   transform-origin: center left;
-  animation: spin 3s linear infinite;  
+  animation: spin 3s linear infinite;
 }
 
 .two {
   transform-origin: center right;
   animation: spin2 3s linear infinite;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .three {
   transform-origin: center right;
   animation: spin3 3s linear infinite;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
 .four {
   transform-origin: center right;
   animation: spin4 3s linear infinite;
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
+  
   25% {
     transform: rotate(360deg);
   }
+  
   30% {
     transform: rotate(370deg);
   }
+  
   35% {
     transform: rotate(360deg);
   }
+  
   100% {
     transform: rotate(360deg);
   }
@@ -335,27 +340,35 @@
   0% {
     transform: rotate(0deg);
   }
+  
   20% {
     transform: rotate(0deg);
   }
+  
   30% {
     transform: rotate(-180deg);
   }
+  
   35% {
     transform: rotate(-190deg);
   }
+  
   40% {
     transform: rotate(-180deg);
   }
+  
   78% {
     transform: rotate(-180deg);
   }
+  
   95% {
     transform: rotate(-360deg);
   }
+  
   98% {
     transform: rotate(-370deg);
   }
+  
   100% {
     transform: rotate(-360deg);
   }
@@ -366,7 +379,7 @@
     transform: rotate(0deg);
   }
   27% {
-    transform: rotate(0deg);  
+    transform: rotate(0deg);
   }
   40% {
     transform: rotate(180deg);
@@ -398,18 +411,23 @@
   0% {
     transform: rotate(0deg);
   }
+  
   38% {
     transform: rotate(0deg);
   }
+  
   60% {
     transform: rotate(-360deg);
   }
+  
   65% {
     transform: rotate(-370deg);
   }
+  
   75% {
     transform: rotate(-360deg);
   }
+  
   100% {
     transform: rotate(-360deg);
   }
