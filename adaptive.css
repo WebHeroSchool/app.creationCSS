@@ -51,6 +51,10 @@
   .logo__circle {
     bottom: 12%; 
   }
+
+  .logo__circle_color_dark-blue {
+    animation: none;
+  }
 }
 
 /*  600px  */
