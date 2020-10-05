@@ -123,7 +123,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/*MOBILE NAV*/
+/* MOBILE NAV */
 
 .mobile-nav {
   display: flex;
@@ -144,26 +144,31 @@
   transition: 0.4s;
   z-index: 9999;
 }
+
 .mobile-nav__icon {
   display: block;
   position: relative;
   background-color: #0056ec;
   width: 100%;
   height: 3px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.mobile-nav__icon::after, .mobile-nav__icon::before {
+
+.mobile-nav__icon::after,
+.mobile-nav__icon::before {
   content: "";
   display: block;
   position: absolute;
   background: #0056ec;
   width: 100%;
   height: 3px;
-  transition: .4s;
+  transition: 0.4s;
 }
+
 .mobile-nav__icon::after {
   top: 6px;
 }
+
 .mobile-nav__icon::before {
   top: -6px;
 }
@@ -180,12 +185,13 @@
   z-index: 999;
   height: 0;
   opacity: 1;
-  transition: .5s;
+  transition: 0.5s;
   overflow: hidden;
   background-color: #fff;
 }
+
 .mobile-nav__list {
-  transition: .5s;
+  transition: 0.5s;
   list-style: none;
   padding-left: 15px;
   display: flex;
@@ -214,9 +220,10 @@
   display: none;
 }
 
-.mobile-nav__checkbox:checked ~ .mobile-nav__nav  {
+.mobile-nav__checkbox:checked ~ .mobile-nav__nav {
   opacity: 1;
 }
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__container {
   height: 100%;
 }
@@ -224,12 +231,16 @@
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before, .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
+
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
 }
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
 }

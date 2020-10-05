@@ -1,6 +1,4 @@
-
-     /*MENU*/
-
+/* MENU */
 @media only screen and (min-width: 600px) {
   .mobile-nav {
     display: none;
@@ -9,22 +7,19 @@
 
 @media only screen and (max-width: 599px) {
   .nav {
-     display: none;
+    display: none;
   }
 }
 
-
-     /*375 MOBILE*/
-
-
-@media only screen and (min-width : 100px) and (max-width : 400px) {
+/* 375 MOBILE */
+@media only screen and (min-width: 100px) and (max-width: 400px) {
   .logo {
-    padding: 0px 0 10.667vw 0;
+    padding: 0 0 10.667vw 0;
     color: transparent;
   }
 
   .main {
-    padding: 60.800vw 8% 11.467vw 6.133vw;
+    padding: 60.8vw 8% 11.467vw 6.133vw;
     background: top center no-repeat url(img/img.svg);
     background-size: 84% auto;
     display: flex;
@@ -54,10 +49,7 @@
   }
 }
 
-
-     /*  600px  */
-
-
+/*  600px  */
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   .logo {
     color: transparent;
@@ -83,7 +75,7 @@
 
   .main__text {
     font: 2.1vw/3vw robotomedium, arial, helvetica, sans-serif;
-    margin: 0px 0 6.833vw 0;
+    margin: 0 0 6.833vw 0;
   }
 
   .main__btn {
@@ -92,17 +84,14 @@
   }
 }
 
-
-     /*1000*/
-
-
+/* 1000 */
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
- .nav__item {
-    font: 500 1.400vw/1.600vw robotobold, arial, helvetica, sans-serif;
+  .nav__item {
+    font: 500 1.4vw/1.6vw robotobold, arial, helvetica, sans-serif;
   }
 
- .main {
-    padding: 3.600vw 59% 23.900vw 0;
+  .main {
+    padding: 3.6vw 59% 23.9vw 0;
   }
 
   .main__title {
@@ -111,13 +100,13 @@
   }
 
   .main__text {
-    font: 1.800vw/2.100vw robotomedium, arial, helvetica, sans-serif;
-    margin: 0px 0 4vw 0;
+    font: 1.8vw/2.1vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 4vw 0;
   }
 
   .main__btn {
-    font: 500 1.400vw/1.600vw robotomedium, arial, helvetica, sans-serif;
-    padding: 1.400vw 2vw;
+    font: 500 1.4vw/1.6vw robotomedium, arial, helvetica, sans-serif;
+    padding: 1.4vw 2vw;
   }
 
   .logo {
