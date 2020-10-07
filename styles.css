@@ -16,8 +16,7 @@
 
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
+  padding: 40px 0 40px 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
