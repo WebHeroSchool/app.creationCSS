@@ -11,12 +11,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 8.854vw;
+  margin-bottom: 7.240vw;
 }
 
 .logo {
   position: relative;
-  padding: 40px 0 40px 44px;
+  padding: 40px 0 40px 51px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .nav__item {
-  margin-right: 26px;
+  margin-right: 25px;
   font: 500 0.938vw/1.094vw robotobold, arial, helvetica, sans-serif;
   text-decoration: none;
   color: #000;
@@ -102,8 +102,8 @@
 }
 
 .main__title {
-  font: 3.6vw/4.5vw pt_serifbold, arial, helvetica, sans-serif;
-  margin: 0 0 2.083vw 0;
+  font: 3.45vw/4.54vw pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 1.927vw 0;
   color: #000;
 }
 
@@ -112,14 +112,15 @@
 }
 
 .main__text {
-  font: 1.1vw/1.3vw robotomedium, arial, helvetica, sans-serif;
-  margin: 0 0 3.177vw 0;
+  font: 1.15vw/1.35vw robotomedium, arial, helvetica, sans-serif;
+  margin: 0 0 3.281vw 0;
   color: #000;
+  width: 22.292vw;
 }
 
 .main__btn {
-  font: 500 1.1vw/1.3vw robotomedium, arial, helvetica, sans-serif;
-  padding: 0.938vw 1.146vw;
+  font: 500 0.938vw/1.094vw robotomedium, arial, helvetica, sans-serif;
+  padding: 0.833vw 1.563vw;
   background-color: #0056ec;
   border-radius: 4px;
   color: #fff;
@@ -206,16 +207,15 @@
 .mobile-nav__list {
   transition: 0.5s;
   list-style: none;
-  padding-left: 15px;
+  padding-left: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 90px 0 0 0;
+  margin-bottom: 200px;
 }
 
 .mobile-nav__item {
-  font: 8vw/10.938vw robotomedium, arial, helvetica, sans-serif;
-  padding-bottom: 40px;
+  font: 30px/35px robotomedium, arial, helvetica, sans-serif;
+  padding-bottom: 24px;
 }
 
 .mobile-nav__link {
@@ -267,7 +267,7 @@
   width: 100%;
   height: 100%;
   background: #fff;
-  z-index: 2;
+  z-index: 99999999;
   transition: 1s all;
   opacity: 1;
   visibility: visible;
