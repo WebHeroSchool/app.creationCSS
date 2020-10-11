@@ -143,7 +143,7 @@
 
   .main__title {
     font: 4.883vw/6.445vw pt_serifbold, arial, helvetica, sans-serif;
-    margin: 0px 0 3.927vw 0;
+    margin: 0 0 3.927vw 0;
   }
 
   .main__text {
@@ -154,7 +154,7 @@
 
   .main__btn {
     font: 500 1.367vw/1.563vw robotomedium, arial, helvetica, sans-serif;
-    padding: 1.270vw 2vw;
+    padding: 1.27vw 2vw;
   }
 }
 
@@ -162,39 +162,39 @@
 @media only screen and (min-width: 1366px) and (max-width: 1500px) {
   .wrapper {
     width: 67.5%;
-   }
-
+  }
+  
   .header {
     margin-bottom: 6.076vw;
-   }
+  }
 
   .nav__item {
     font: 500 1.025vw/1.171vw robotobold, arial, helvetica, sans-serif;
     margin-right: 1.611vw;
-   }
+  }
 
   .logo {
     padding: 40px 0 40px 45px;
-   }
+  }
 
   .main {
     padding: 1.385vw 57% 13.448vw 0;
     background-size: 55% auto;
-   }
+  }
 
   .main__title {
     font: 3.66vw/4.832vw pt_serifbold, arial, helvetica, sans-serif;
     margin: 0 0 2.635vw 0;
-   }
+  }
 
   .main__text {
     font: 1.318vw/1.537vw robotomedium, arial, helvetica, sans-serif;
-    margin: 0px 0 4.100vw 0;
+    margin: 0 0 4.100vw 0;
     width: 27.292vw;
-   }
+  }
 
   .main__btn {
     font: 500 1.025vw/1.171vw robotomedium, arial, helvetica, sans-serif;
     padding: 0.952vw 1.537vw;
-   }
+  }
 }
