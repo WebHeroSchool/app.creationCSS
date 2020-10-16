@@ -198,3 +198,27 @@
     padding: 0.952vw 1.537vw;
   }
 }
+
+/*1920px*/
+@media only screen and (min-width: 1920px) {
+  .logo {
+    padding: 42px 0 40px 51px;
+  }
+
+  .nav__item {
+    margin-right: 23px;
+  }
+
+  .nav__item:last-child {
+    margin-right: 9px;
+  }
+
+  .header {
+    margin-bottom: 6.771vw;
+  }
+
+  .main {
+    padding: 3.75vw 63% 12.448vw 0;
+  }
+
+}
