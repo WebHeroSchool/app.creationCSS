@@ -199,7 +199,7 @@
   }
 }
 
-/*1920px*/
+/* 1920px */
 @media only screen and (min-width: 1920px) {
   .logo {
     padding: 42px 0 40px 51px;
@@ -220,5 +220,4 @@
   .main {
     padding: 3.75vw 63% 12.448vw 0;
   }
-
 }
